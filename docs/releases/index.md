@@ -1,6 +1,6 @@
 # Release notes
 
-## [v1.0.0 <small>Date</small>](https://github.com/ZachChristensen28/SA-SentinelOneDevices/releases/tag/v1.0.0)
+## [v1.0.0 <small>September 30, 2022</small>](https://github.com/ZachChristensen28/SA-SentinelOneDevices/releases/tag/v1.0.0)
 
 ### Compatibility
 
