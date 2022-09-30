@@ -1,0 +1,103 @@
+site_name: SA-SentinelOneDevices
+edit_uri: ""
+repo_url: https://github.com/ZachChristensen28/SA-SentinelOneDevices
+repo_name: ZachChristensen28/SA-SentinelOneDevices
+
+plugins:
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - attr_list
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - pymdownx.snippets
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/sa-sentinelone-logo-small.svg
+  favicon: assets/sa-sentinelone-logo-small.svg
+  features:
+    # - header.autohide
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    # - toc.integrate
+    - navigation.tracking
+    - content.code.annotate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/zachthesplunker/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZachChristensen28
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ZachTheSplunker
+    - icon: simple/ghost
+      link: https://zachthesplunker.com
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Quick Start:
+      - Prerequisites: quickstart/prerequisites.md
+      - Install: quickstart/install.md
+      - Quickstart: quickstart/quickstart.md
+  - Configure:
+      - configure/index.md
+      - Update Priority: configure/priority.md
+      - Update Category: configure/category.md
+      - Update Business Unit: configure/bunit.md
+      - Update Schedule: configure/schedule.md
+      - Update Cleanup: configure/cleanup.md
+      - Best Practice:
+          - Clone Saved Search: configure/best-practice/clone-search.md
+  - Reference:
+      - All Configurations: reference/all-configurations.md
+      - Asset Database mapping: reference/asset-mapping.md
+      - Example Output: reference/example.md
+      - Field reference:
+          - Category: reference/category.md
+  - Troubleshooting:
+      - troubleshooting/index.md
+      - Solutions Guide:
+          - Asset Merge: troubleshooting/solution-guides/asset-merge.md
+  - Release Notes:
+      - Release Notes: releases/index.md
+  #     - Release History: releases/release-history.md
