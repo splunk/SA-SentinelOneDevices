@@ -25,8 +25,9 @@ If applicable, add screenshots to help explain your problem.
 
 **Versions (please complete the following information):**
  - Splunk Version: [e.g. 9.0]
- - SA-SentinelOneDevices Version: [e.g. 1.0.0]
-- [SentinelOne App For Splunk Version](https://splunkbase.splunk.com/app/5433): [e.g. 5.1.7]
+ - Splunk ES Version: [e.g. 7.0]
+ - SA-SentinelOneDevices Version (this add-on): [e.g. 1.0.0]
+ - [SentinelOne App For Splunk Version](https://splunkbase.splunk.com/app/5433): [e.g. 5.1.7]
 
 **Additional context**
 Add any other context about the problem here.
