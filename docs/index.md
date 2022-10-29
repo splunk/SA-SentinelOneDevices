@@ -14,6 +14,8 @@ __Example Output__
 ![SA-SentinelOneDevices Example](/assets/sa-sentinelone-example-dark.png#only-dark)
 ![SA-SentinelOneDevices Example](/assets/sa-sentinelone-example-light.png#only-light)
 
+!!! important "This Supporting add-on is only intended to work with [Splunk Enterprise Security](https://splunkbase.splunk.com/app/263) deployments."
+
 !!! quote ""
     __*Disclaimer*__
 
