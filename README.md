@@ -27,15 +27,15 @@ Full documentation can be found at [https://splunk-sa-sentinelone.ztsplunker.com
 
 Info | Description
 ------|----------
-SA-SentinelOneDevices | 1.0.0 - [Splunkbase](https://splunkbase.splunk.com/app/6612) \| [GitHub](https://github.com/ZachChristensen28/SA-SentinelOneDevices)
+SA-SentinelOneDevices | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6612) \| [GitHub](https://github.com/ZachChristensen28/SA-SentinelOneDevices)
 Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 SentinelOne App For Splunk (Required) | [5.1.x](https://splunkbase.splunk.com/app/5433)
 Add-on has a web UI | No, this add-on does not contain views.
 
 ```text
-Version 1.0.0
+Version 1.0.1
 
-- Initial creation
+- Added managed configurations for ES - #5
 ```
 
 ## Issues or Feature Requests
