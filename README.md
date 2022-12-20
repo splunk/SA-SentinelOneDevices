@@ -32,12 +32,6 @@ Splunk Enterprise Security Version (Required) | [7.x \| 6.x](https://splunkbase.
 SentinelOne App For Splunk (Required) | [5.1.x](https://splunkbase.splunk.com/app/5433)
 Add-on has a web UI | No, this add-on does not contain views.
 
-```text
-Version 1.0.1
-
-- Added managed configurations for ES - #5
-```
-
 ## Issues or Feature Requests
 
 Please open an issue or feature request on [GitHub](https://github.com/ZachChristensen28/SA-SentinelOneDevices/issues).
