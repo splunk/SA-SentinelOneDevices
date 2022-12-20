@@ -104,4 +104,4 @@ nav:
           - Asset Merge: troubleshooting/solution-guides/asset-merge.md
   - Release Notes:
       - Release Notes: releases/index.md
-  #     - Release History: releases/release-history.md
+      - Release History: releases/release-history.md

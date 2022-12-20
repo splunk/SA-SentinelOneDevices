@@ -33,8 +33,8 @@ This documentation assumes the following:
 ## About
 
 Info | Description
-------|----------
-SA-SentinelOneDevices | 1.0.0 | [Splunkbase](https://splunkbase.splunk.com/app/6612) \| [GitHub](https://github.com/ZachChristensen28/SA-SentinelOneDevices)
+------ | ----------
+SA-SentinelOneDevices | 1.0.1 - [Splunkbase](https://splunkbase.splunk.com/app/6612) \| [GitHub](https://github.com/ZachChristensen28/SA-SentinelOneDevices/releases/tag/v1.0.1)
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x](https://splunkbase.splunk.com/app/263)
 SentinelOne App For Splunk <small>(Required)</small> | [5.1.x](https://splunkbase.splunk.com/app/5433)
 
