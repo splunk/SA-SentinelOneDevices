@@ -1,15 +1,17 @@
 name: docs
+
 on:
-  push:
-    branches:
-      - master
-      - main
-    paths:
-      - "docs/**"
-      - "mkdocs.yml"
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - master
+  #   paths:
+  #     - "docs/**"
+
+permissions:
+  contents: write
 
 jobs:
-  call-docs-workflow:
-    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/docs.yml@main
-    with:
-      config-path: docs/requirements.txt
+  call-packaging-workflow:
+    uses: ZachTheSplunker/app-wfa/.github/workflows/docs.yml@main

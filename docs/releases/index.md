@@ -1,26 +1,42 @@
-# Release notes
+---
+order: -100
+icon: project-roadmap
+label: Releases
+---
 
-## [v1.0.1 <small>December 20, 2022</small>](https://github.com/ZachChristensen28/SA-SentinelOneDevices/releases/tag/v1.0.1)
+# Release Notes
 
-### Compatibility
+Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6612/){ target="blank" }.
 
-Product | Version
---------- | -------
-Splunk platform versions | 9.x, 8.x
-Splunk Enterprise Security version | [7.x, 6.x](https://splunkbase.splunk.com/app/263)
-SentinelOne App For Splunk | [5.1.x](https://splunkbase.splunk.com/app/5433)
+## v1.0.2 [!badge text="LATEST" variant="info" icon="package"]
 
-### What's Changed
+Released: [December 16, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-SentinelOneDevices/releases/tag/v1.0.2){ target="blank" }
 
-- Added managed configurations for ES - [#5](https://github.com/ZachChristensen28/SA-SentinelOneDevices/issues/5)
-- Added managed settings for ES
++++ Improved :icon-thumbsup:
+- [x] Added managed configurations for Splunk Enterprise Security to control retention of lookup file --> [Schedule Search](/start/scheduled-search.md){ target="blank" }
++++ Deprecated :icon-diff-removed:
+- [x] Deprecating use of the search macro "sa_sentinelone_retention" and the corresponding saved search.
++++
 
-**Full Changelog**: [v1.0.0...v1.0.1](https://github.com/ZachChristensen28/SA-SentinelOneDevices/compare/v1.0.0...v1.0.1)
+**Full Changelog**: [v1.0.1...v1.0.2 <small>:icon-link-external:</small>](https://github.com/splunk/SA-SentinelOneDevices/compare/v1.0.1...v1.0.2){ target=blank }
 
-## Known issues
+---
 
-Issue | Description | Solution | GitHub issue reference
------ | ----------- | -------- | ----------------------
-Lookup file error | You may see the error `status="Lookup file error, unknown path or update time" name=sa_aws_assets` | This error exists since the KVstore is being used opposed to a csv file and does not interfere with the functionality of lookup creation. | Issue [#4](https://github.com/ZachChristensen28/SA-SentinelOneDevices/issues/4)
+## v1.0.1
 
-Issues can be reported on the [SA-SentinelOneDevices's GitHub page](https://github.com/ZachChristensen28/SA-SentinelOneDevices/issues).
+Released: [December 20, 2022 <small>:icon-link-external:</small>](https://github.com/splunk/SA-SentinelOneDevices/releases/tag/v1.0.1){ target="blank" }
+
++++ New :icon-shield-check:
+- [x] Added managed configurations for ES
+- [x] Added managed settings for ES
++++
+
+**Full Changelog**: [v1.0.0...v1.0.1 <small>:icon-link-external:</small>](https://github.com/splunk/SA-SentinelOneDevices/compare/v1.0.0...v1.0.1){ target=blank }
+
+---
+
+## v1.0.0
+
+[September 30, 2022 <small>:icon-link-external:</small>](https://github.com/splunk/SA-SentinelOneDevices/releases/tag/v1.0.0){ target="blank" }
+
+- [x] Initial release
