@@ -10,7 +10,7 @@ Latest release can be found on [Splunkbase <small>:icon-link-external:</small>](
 
 ## v1.0.2 [!badge text="LATEST" variant="info" icon="package"]
 
-Released: [December 16, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-SentinelOneDevices/releases/tag/v1.0.2){ target="blank" }
+Released: [December 19, 2023 <small>:icon-link-external:</small>](https://github.com/splunk/SA-SentinelOneDevices/releases/tag/v1.0.2){ target="blank" }
 
 +++ Improved :icon-thumbsup:
 - [x] Added managed configurations for Splunk Enterprise Security to control retention of lookup file --> [Schedule Search](/start/scheduled-search.md){ target="blank" }
