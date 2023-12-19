@@ -29,7 +29,7 @@ This documentation assumes the following:
 
 Info | Description
 ------|----------
-SA-SentinelOneDevices | 1.0.1 - [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6612/){ target="blank" } 
+SA-SentinelOneDevices | 1.0.2 - [Splunkbase <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/6612/){ target="blank" } 
 Splunk Enterprise Security Version <small>(Required)</small> | [7.x \| 6.x <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/263){ target="blank" }
 SentinelOne App For Splunk <small>(Required)</small> | [5.1.x <small>:icon-link-external:</small>](https://splunkbase.splunk.com/app/5433){ target="blank" }
 Add-on has a web UI | No, this add-on does not contain views.
